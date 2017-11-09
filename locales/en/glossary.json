@@ -1,0 +1,7 @@
+{
+    "title": "Demo for i18next",
+    "deliveryDateLabel": "<div><small><span>Delivery Date</span>:</small></div> ",
+    "deliveryDate": "$t(glossary:deliveryDateLabel)<strong>{{date_distance}}</strong> <small>days</small> from today",
+    "deliveryDate_late": "$t(glossary:deliveryDateLabel)<strong><font color='red'>{{date_distance}}</font></strong> <small>days</small> late already",
+    "deliveryDate_today": "$t(glossary:deliveryDateLabel)<strong>Today</strong>"
+}
